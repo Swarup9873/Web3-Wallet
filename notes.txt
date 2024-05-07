@@ -1,0 +1,3 @@
+I have added id="login_form" in loginUser at popup.html due to an issue occuring at line 203 in popup.js file at  document.getElementById("login_form").style.display = "none";
+
+// window.location.reload(); commented out in login function in popup.js
