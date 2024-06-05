@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(){
 //STATE VARIABLES
 // let providerURL = "https://polygon-mumbai.g.alchemy.com/v2/3csm1wTEXhtv_u0u4kx9wpKgNnV1D-n6";
 
-let providerURL = "https://polygon-amoy.infura.io/v3/52ff9a515558441381f60dbbf37126b6";
+let providerURL = "";
 
 let provider;
 let privateKey;
@@ -46,8 +46,8 @@ function handler(){
     const amount = document.getElementById("amount").value;
     const address = document.getElementById("address").value;
 
-    const private_key = "f41e951b8f989ceafed799b9e9fbde749f740c54d4450423130d8c156f687427";
-    const testAccount = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+    const private_key = "";
+    const testAccount = "";
 
     //PROVIDER
     const provider = new ethers.providers.JsonRpcProvider(providerURL);
