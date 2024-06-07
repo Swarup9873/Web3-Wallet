@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 //STATE VARIABLES
-// let providerURL = "https://polygon-mumbai.g.alchemy.com/v2/3csm1wTEXhtv_u0u4kx9wpKgNnV1D-n6";
 
 let providerURL = "";
 
